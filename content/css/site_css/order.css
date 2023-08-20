@@ -1,0 +1,203 @@
+:root{
+    --blue : #21D1F5;
+    --green : #3BD1C8;
+    --white : #fff;
+    --darkgray : #1E1F29;
+    --lightgray : #E4E7ED;
+    --grey : #E8F0F2;
+}
+.container-order{
+    margin: 2rem 15%;
+    display: flex;
+    margin-top: 8rem;
+}
+.order-left{
+    border-right: 1px dotted #ccc;
+    width: 55%;
+    padding-right: 2rem;
+}
+.order-left form{
+    margin: 1rem 0;
+}
+.order-left form span{
+    font-weight: bold;
+}
+.order-left form input, textarea, select{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+.box-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.box-flex label{
+    flex-grow: 1;
+}
+.box-flex select:not(:last-child){
+    margin-right: 0.5rem;
+}
+
+
+.order-right{
+    width: 45%;
+    padding-left: 2rem;
+}
+ul.product-rows, .code-discount, .bill-total{
+    padding: 1rem 0;
+    border-bottom: 1px dotted #ccc;
+}
+ul.product-rows li.product-row{
+    display: flex;
+    justify-content: space-between;
+}
+.product-row-left{
+    display: flex;
+}
+.pd-thumbal{
+    position: relative;
+}
+.pd-thumbal>img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pd-thumbal span{
+    position: absolute;
+    top: -15%;
+    right: -5%;
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1E1F2966;
+}
+.code-discount{
+    display: flex;
+}
+.code-discount input{
+    padding: 0.5rem;
+    width: 70%;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.code-discount button{
+    width: 30%;
+    padding: 0.5rem;
+    background-image: linear-gradient(90deg, var(--blue), var(--green));
+    color: #fff;
+    border-radius: 5px;
+}
+.price-pd{
+    display: flex;
+    justify-content: space-between;
+}
+.price-total{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.pay-row{
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted #ccc;
+}
+.pay-row label{
+    margin-right: 1rem;
+    font-weight: 700;
+}
+.pay-row>p{
+    display: none;
+    color: #bbbbbb;
+}
+.pay-row input#card:checked ~ p{
+    display: block;
+}
+input[type="radio"] {
+    /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 4px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+input[type="radio"]:checked {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+  }
+
+.ordered_container {
+    margin: 10% 0 5% 0;
+    width: 20rem;
+    box-shadow: rgb(100 100 111 / 20%) 0px 8px 30px 0px;
+    text-align: center;
+    padding: 4rem 2rem;
+    padding-top: 2rem;
+    position: relative;
+    left: 50%;
+    /* -webkit-transform: translateX(-50%); */
+    transform: translateX(-50%);
+}
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  }
+  
+  .checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+  }
+  
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes scale {
+    0%, 100% {
+      transform: none;
+    }
+    50% {
+      transform: scale3d(1.1, 1.1, 1);
+    }
+  }
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0px 0px 0px 30px #7ac142;
+    }
+  }

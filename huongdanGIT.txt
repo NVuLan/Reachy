@@ -1,0 +1,29 @@
+Các câu lệnh git 
+# Terms 
+
+ Repository (Repo)
+ Branch (Nhánh file)
+ Conflict (Xung đột trong 1 file)
+Local 
+Remote
+
+# commands 
+
+- git init : giúp dự án trở thành 1 git và sử dụng được git ( bước đầu tiên )
+- git status : thấy được trạng thái dự án đã thay đổi gì 
+- git add . : giúp tháy các file chuẩn bị lưu tại thời điểm hiện tại của dự án  
+- git reset : gỡ các file chuẩn bị lưu 
+- git commit -m 'tên tự đặt thể hiện quá trình tới đâu': lưu các file 
+- git log : coi các thời điểm đã lưu  ( git log --oneline : gọn hơn)
+- git checkout (tên id commit đã lưu) : xem các bản đã lưu trước đó
+- git checkout (tên branch) : trở lại file hiện tại 
+- git branch : xem các branch [1 branch cho mỗi 1 chức năng]
+- git checkout -b (tên branch) : tạo branch mới
+- git branch (tên branch) : qua lại giữa các brand
+- git merge (tên branch) : gộp các brand lại với nhau 
+- git branch -d (tên branch) : xóa branch 
+- git git push origin (tên branch): Đẩy code lên github
+- git remote add origin (đường dẫn Repo) : tạo  alious 
+- git push -u origin (tên branch) : Đẩy branch lên github
+- git clone (đường dẫn Repo) : Tải file từ github về
+- git pull origin master : để truy cập kho lưu trữ từ xa đến cục bộ. 

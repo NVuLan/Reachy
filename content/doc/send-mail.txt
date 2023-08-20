@@ -1,0 +1,1 @@
+Mã xác nhận tài Khoản của bạn là: {code}

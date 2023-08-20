@@ -1,0 +1,37 @@
+@import url('/content/css/root.css');
+.add__container{
+    width: 55%;
+    margin: 150px auto;
+    background-color: #F8F9FF;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.add__container>h1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.addloai__form>p{
+    margin-bottom: 10px;
+}
+.add_input{
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+}
+.addloai__form>span{
+    margin-right: 8px;
+}
+.add__noti{
+    margin-top: 10px;
+    color: #38D414;
+    font-weight: bold;
+}
+.noibat{
+    margin-bottom: 15px;
+}
+select{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}

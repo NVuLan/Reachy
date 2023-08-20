@@ -1,0 +1,15 @@
+.container{
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+.container_i4{
+    margin: 0 10%;
+    margin-top: 5rem;
+}
+.container_i4>span{
+    font-size: medium;
+}
+.i4_img{
+    width: 50%;
+    transform: translateX(50%);
+}

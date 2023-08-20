@@ -1,0 +1,45 @@
+.signup__heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.signup__content{
+    width: 45%;
+    margin: 150px auto;
+    background-color: #F8F9FF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #e7e7e7;
+    padding: 30px;
+}
+.signup__content>h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.signup__content>p{
+    font-style: italic;
+    color: gray;
+    font-size: 14px;
+    margin: 8px 0 25px 0;
+}
+.signup__form>input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #e7e7e7;
+}
+.signup__form>input[type="submit"]{
+    width: 40%;
+}
+.signup__form>input[type="radio"]{
+    width: 5%;
+}
+.signup__form>a>input[type="button"]{
+    padding: 5px 15px;
+    background-color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #e7e7e7;
+    cursor: pointer;
+    transition: 0.25s all linear;
+}

@@ -1,0 +1,6 @@
+.user__uploadImg--contentbox,#user__uploadImg--checkbox{
+    display: none;
+}
+#user__uploadImg--checkbox:checked~.user__uploadImg--contentbox{
+    display: block;
+}

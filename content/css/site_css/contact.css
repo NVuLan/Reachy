@@ -1,0 +1,130 @@
+.container_contact{
+    margin: 0 10%;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.box_content{
+    position: absolute;
+    top: 3rem;
+    width: 30%;
+    background-image: linear-gradient( 180deg,#21D1F5 ,#3BD1C8 );
+    padding: 1rem 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 8px 29px 0px;
+}
+.box_bottom{
+    margin-left: 10rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 5rem 0;
+    padding-left: 20rem;
+    margin-bottom: 4rem;
+}
+.home_contact{
+    display: flex;
+    align-items: center;
+    height: 7.5rem;
+    padding: 2rem;
+    color: #fff;
+    font-size: 0.75rem;
+}
+.home_contact>div>h5{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.home_contact>img{
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+.last_name,.first_name,.number,.mail{
+    border: 1px solid gray;
+    width: calc(45% - 4px);
+    /* margin-right: 5%; */
+    margin-top: 3%;
+    height: 3rem;
+    padding-left: 0.75rem;
+}
+.idea_content{
+    width: 100%;
+    margin-top: 3%;
+    padding-left: 0.75rem;
+}
+.form_idea{
+    width: 85%;
+}
+.form_idea>form>input:nth-child(2n+1){
+    margin-right: 10%;
+}
+.submit{
+    border-radius: 5px;
+    width: 30%;
+    height: 3rem;
+    margin-top: 3%;
+    background-image: linear-gradient( 180deg,#21D1F5 ,#3BD1C8 );
+    color: #fff;
+    font-size: 18px;
+}
+.map>iframe{
+    width: 90%;
+    margin-left: 4.5rem;
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width: 450px){
+    .box_content {
+        position: initial;
+        width: 100%;
+    }
+    .container_contact {
+        margin: 0 5%;
+        margin-top: 4rem;
+        margin-bottom: 0rem;
+    }
+    .box_bottom {
+        margin-left: 0rem;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    .form_idea {
+        width: 100%;
+    }
+    .form_idea>form>input:nth-child(2n+1) {
+        margin-right: 2%;
+    }
+    .last_name, .first_name, .number, .mail {
+        border: 1px solid gray;
+        width: calc(49% - 4px);
+        margin-right: 0%;
+        margin-top: 5%;
+        height: 1.8rem;
+        padding-left: 0.75rem;
+    }
+    .submit {
+        border-radius: 5px;
+        width: 45%;
+        height: 2rem;
+        margin-top: 3%;
+        background-image: linear-gradient( 180deg,#21D1F5 ,#3BD1C8 );
+        color: #fff;
+        font-size: 15px;
+    }
+    .map>iframe {
+        width: 100%;
+        height: 10rem;
+        margin-left: 0rem;
+        margin-bottom: 3rem;
+    }
+    .home_contact {
+        display: flex;
+        align-items: center;
+        height: 5.5rem;
+        padding: 1rem;
+        color: #fff;
+        font-size: 0.7rem;
+    }
+    .home_contact>div>h5 {
+        font-size: 0.7rem;
+    }
+
+}
